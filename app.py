@@ -9,7 +9,7 @@ st.set_page_config(page_title="Palettisation - Méthode Matricielle", layout="wi
 col1, col2, col3 = st.columns([1, 3, 1])
 
 with col1:
-    st.image("logo_ofppt.png", width=150)
+    st.image("Logo_ofppt.png", width=150)
 
 with col2:
     st.markdown("""
@@ -25,7 +25,7 @@ with col2:
     """, unsafe_allow_html=True)
 
 with col3:
-    st.image("logo_ofppt.png", width=150)
+    st.image("Logo_ofppt.png", width=150)
 
 st.markdown("---")
 
@@ -417,4 +417,5 @@ with st.expander("ℹ️ À propos de la méthode matricielle"):
     
     ---
     **Réalisé par:** ISMAILI ALAOUI MOHAMED - FORMATEUR EN OFPPT
+
     """)
